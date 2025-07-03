@@ -35,7 +35,7 @@ if __name__ == "__main__":
             num2 = float(input('Digite o segundo número: '))
         
             resultado = calculadora(num1, num2, operador)
-            if resultado != resultado:  # verifica NaN
+            if resultado != resultado: 
                 print('\nOperador inválido ou divisão por zero!\n')
             else:
                 print(f'Resultado: {num1} {operador} {num2} = {resultado}\n')
